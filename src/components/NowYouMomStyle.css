@@ -1,0 +1,109 @@
+.you-mom-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    align-self: center;
+}
+
+.mom-main-text h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 800;
+    text-align: left;
+}
+
+.mom-main-text span {
+    font-family: Gilroy;
+    font-size: 48px;
+    background: #845DF6;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.mom-main-text {
+    display: flex;
+    padding: 70px 0 20px 20px;
+}
+
+.tall-text span {
+    font-family: Gilroy;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tall-text {
+    padding: 10px 0 20px 20px;
+}
+
+.check-img img {
+    height: 38px;
+    width: 38px;
+}
+
+.check-img {
+    height: 38px;
+    width: 38px;
+    min-width: 38px;
+}
+
+.you-mom-box {
+    padding: 15px;
+    display: flex;
+    max-width: 50%;
+    margin-bottom: 10px;
+
+}
+
+.you-mom-container-box {
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    max-height: 500px;
+}
+
+.you-mom-box-text {
+    padding-left: 20px;
+}
+
+.you-mom-box-text h2 {
+    font-family: Gilroy, Roboto, sans-serif;
+    font-size: 16px;
+    color: #32313B;
+}
+
+@media screen and (max-width: 620px) {
+    .mom-main-text h1 {
+        font-size: 30px;
+        text-align: start;
+    }
+
+    .mom-main-text span {
+        font-size: 30px;
+        text-align: start;
+        border-radius: 0px;
+    }
+
+    .you-mom-container {
+        align-items: start;
+    }
+
+}
+
+
+
+@media screen and (max-width: 920px) {
+
+    .you-mom-container-box {
+        width: 100%;
+        max-height: inherit;
+    }
+
+    .you-mom-box {
+        max-width: 100%;
+    }
+}
+

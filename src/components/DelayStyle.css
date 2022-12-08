@@ -1,0 +1,371 @@
+.contraindications-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*padding: 30px;*/
+    padding-bottom: 70px;
+    max-width: 1200px;
+    align-self: center;
+}
+
+.contraindications-text h2 {
+    font-size: 26px;
+    font-family: Gilroy;
+    color: #32313B;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.contraindications-text h1 {
+    color: #845DF6;
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0 auto;
+    line-height: 1;
+}
+
+.contraindications-text {
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.contraindications-list ul li::marker {
+    color: #FF4252;
+}
+
+.contraindications-list ul {
+    list-style-type: square;
+    padding-left: 10px;
+}
+
+.contraindications-list ul li {
+    font-size: 18px;
+    font-family: Gilroy, Roboto, sans-serif;
+    color: #000000;
+    border-bottom: 1px solid lightgray;
+    padding: 13px;
+}
+
+.contraindications-list {
+    display: flex;
+    /*max-width: 1200px;*/
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.contraindications-list ul:last-child {
+    padding-right: 150px;
+
+}
+
+
+.care-yourself-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.care-yourself-text h1 {
+    background: #845DF6;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.care-yourself-text h2 {
+    font-size: 48px;
+    color: #32313B;
+    font-family: Gilroy;
+    font-weight: 800;
+    margin-bottom: 50px;
+
+}
+
+.without-guilt-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.without-guilt-box {
+    display: flex;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 25px 50px 40px 25px;
+    flex-basis: calc(50% - 30px);
+    margin-bottom: 25px;
+    justify-content: space-between;
+    overflow: hidden;
+    max-height: 230px;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.without-guilt-box:hover {
+    position: relative;
+    transform: translateY(-10px);
+}
+
+
+
+.guilt-text span {
+    font-family: Gilroy;
+    font-size: 20px;
+    color: #000000;
+}
+
+.guilt-number {
+    width: 140px;
+    position: absolute;
+    right: -55px;
+    bottom: -77px;
+    padding: 30px 25px;
+    margin: 0 0 20px;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0;
+    transition: all 0.3s;
+    border-radius: 50%;
+    color: #fff;
+    background: #ff5463;
+    height: 140px;
+}
+
+.guilt-number span {
+    font-family: Gilroy;
+    font-size: 38px;
+    color: #FFFFFF;
+    background-color: #FF4252;
+    border-radius: 30px;
+}
+
+.home-training-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    width: 320px;
+    align-self: center;
+}
+
+.home-training-text h2 {
+    font-size: 30px;
+    color: #32313B;
+    font-family: Gilroy;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 5px;
+}
+
+.home-training-text span {
+    font-family: Gilroy, Roboto, sans-serif;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.home-training-img {
+    min-height: 150px;
+    min-width: 150px;
+    margin-right: 50px;
+}
+
+.safety-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.purple-text {
+    display: flex;
+}
+
+.safety-text h1 {
+    font-size: 48px;
+    font-family: Gilroy;
+    line-height: 1.2;
+    font-weight: 800;
+    text-align: center;
+    max-width: 90vw
+
+}
+
+.safety-text span {
+    font-size: 48px;
+    font-family: Gilroy;
+    line-height: 1.2;
+    font-weight: 800;
+    background: #845DF6;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.safety-box-container {
+    /*max-width: 1200px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.safety-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 15px 30px;
+    padding: 25px;
+    border-radius: 10px;
+    max-height: 490px;
+    border: 1px solid #e1e1e1;
+}
+
+.safety-img {
+    padding-bottom: 15px;
+}
+
+.safety-box-text h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Gilroy;
+    color: #202021;
+    font-weight: 800;
+    line-height: 1.1;
+    padding-bottom: 15px;
+}
+
+.safety-box-list ul {
+    list-style-type: none;
+}
+
+.safety-box-list ul li {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 7px 0;
+    font-size: 15px;
+    font-family: Gilroy, Roboto, sans-serif;
+    color: #555;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.safety-box-list ul li:last-child {
+    border-bottom: 0;
+}
+
+/*@media screen and (max-width: 740px) {*/
+
+/*}*/
+
+@media screen and (max-width: 620px) {
+    .safety-text span {
+        border-radius: 0px;
+    }
+
+    .safety-box {
+        width: 95vw;
+    }
+
+    .care-yourself-text h1 {
+        font-size: 28px;
+        border-radius: 0px;
+    }
+
+    .care-yourself-text h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .contraindications-text h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .contraindications-text h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .without-guilt-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home-training-container {
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+    .contraindications-list ul:last-child {
+        padding-right: 0;
+    }
+
+    .home-training-img {
+        padding-right: 0;
+        padding-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .home-training-text h2 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .home-training-text span {
+        text-align: center;
+    }
+
+    .home-training-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .safety-text h1 {
+        font-size: 30px;
+    }
+
+    .safety-text span {
+        font-size: 30px;
+    }
+
+    .guilt-number {
+        width: 140px;
+        height: 140px;
+        position: absolute;
+        right: -67px;
+        bottom: -88px;
+        padding: 30px 25px;
+        margin: 0 0 20px;
+        text-align: left;
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0;
+        transition: all 0.3s;
+        border-radius: 50%;
+        color: #fff;
+        background: #ff5463;
+    }
+
+    .without-guilt-box {
+        flex-basis: 98vw;
+        max-height: 290px;
+        padding-bottom: 50px;
+        margin-bottom: 10px;
+    }
+}
+

@@ -1,0 +1,158 @@
+.recovery-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    align-self: center;
+}
+
+.recovery-main-text h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.recovery-main-text span {
+    font-family: Gilroy;
+    font-size: 48px;
+    background: #845DF6;
+    padding: 0 12px 5px 12px;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.recovery-main-text {
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.recovery-box-container {
+    display: flex;
+    max-width: 1200px;
+    width: 95vw;
+    padding-bottom: 40px;
+}
+
+.recovery-box {
+    padding: 25px;
+    margin: 10px;
+    transition: all 0.5s;
+    min-width: auto;
+    background: transparent;
+    border: 1px solid #845DF6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.recovery-box:hover {
+    border-bottom: 8px solid #845DF6;
+    border-right: 8px solid #845DF6;
+}
+
+
+
+.recovery-video-container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 95vw;
+    max-height: 95vh;
+    padding-bottom: 40px;
+}
+
+.recovery-video-container iframe {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.take-part button {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    text-align: center;
+    background: linear-gradient(to right, #FF7F9E, #FF4252);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.3;
+    padding: 35px 60px 37px;
+    min-height: auto;
+    transition: all 0.3s;
+    z-index: 999;
+    outline: none;
+    min-height: 73px;
+    -webkit-box-shadow: 0px 6px 15px 0px #e9001442;
+    -moz-box-shadow: 0px 6px 15px 0px #e9001442;
+    box-shadow: 0px 6px 15px 0px #e9001442;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+
+
+}
+
+.take-part button:hover {
+    transition: all 0.5s;
+    position: relative;
+    top: -5px;
+}
+
+@media screen and (max-width: 910px) {
+
+    .recovery-box {
+        margin: 0;
+        margin-bottom: 30px;
+        width: 90vw;
+    }
+
+    .recovery-box-container{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .recovery-video-container iframe {
+        height: 64%;
+
+    }
+
+}
+
+@media screen and (min-width: 620px) {
+    .recovery-video-container iframe {
+        width: 96vw;
+        height: 85vh;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .recovery-video-container {
+        display: flex;
+        max-width: 1200px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        width: 95vw;
+        padding-bottom: 40px;
+    }
+
+    .recovery-video-container iframe {
+        height: 215px;
+        width: 90vw;
+    }
+
+    .recovery-main-text h1 {
+        font-size: 30px;
+    }
+
+    .recovery-main-text span {
+        font-size: 30px;
+        border-radius: 0px;
+    }
+
+}

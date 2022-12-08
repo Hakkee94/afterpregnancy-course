@@ -1,0 +1,173 @@
+.gave-birth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffedff;
+    padding-top: 75px;
+    flex-direction: column;
+
+}
+
+.gave-birth-main-text h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+.gave-birth-main-text span {
+    font-family: Gilroy;
+    font-size: 48px;
+    background: #845DF6;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.gave-birth-main-text {
+    padding-bottom: 10px;
+}
+
+.gave-birth-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.gave-birth-box {
+    max-width: 24vw;
+    padding-top: 25px;
+    margin: 0 15px 1px;
+    background: #ffedff;
+    border-radius: 10px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gave-first span {
+    font-family: Gilroy, Roboto, sans-serif;
+    font-size: 64px;
+    color: #FF4252;
+    letter-spacing: -1px;
+    font-weight: 500!important;
+    text-align: center;
+}
+
+.gave-second span {
+    font-family: Gilroy;
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+}
+
+.gave-second {
+    padding-bottom: 15px;
+}
+
+.gave-third span {
+    font-family: Gilroy, Roboto, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+
+.gave-third {
+    display: flex;
+}
+
+.little-text {
+    font-size: 16px;
+    font-family: Gilroy, Roboto, sans-serif;
+    color: #32313B;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.katya-img {
+    padding: 10px;
+}
+
+.take-course button {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    text-align: center;
+    background: linear-gradient(to right, #FF7F9E, #FF4252);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.3;
+    transition: all 0.3s;
+    z-index: 999;
+    outline: none;
+    min-height: 73px;
+    -webkit-box-shadow: 0px 6px 15px 0px #e9001442;
+    -moz-box-shadow: 0px 6px 15px 0px #e9001442;
+    box-shadow: 0px 6px 15px 0px #e9001442;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 25px;
+    margin: 20px;
+}
+
+.take-course {
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width: 1000px) {
+    .bear-left {
+        display: none;
+    }
+
+    .bear-right {
+        display: none;
+    }
+
+    .soska {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .gave-birth-box {
+        max-width: 95vw;
+    }
+
+    .katya-img img {
+        max-width: 67vw;
+    }
+
+}
+
+
+@media screen and (max-width: 620px) {
+    .gave-birth-main-text h1 {
+        font-size: 30px;
+    }
+
+    .gave-birth-main-text span {
+        font-size: 28px;
+        border-radius: 0px;
+    }
+
+    .gave-birth-box {
+        margin: 0 15px 10px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .katya-img img {
+        max-width: 380px;
+    }
+}
+
+
+
+

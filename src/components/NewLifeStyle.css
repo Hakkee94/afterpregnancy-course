@@ -1,0 +1,137 @@
+.new-life-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.new-life-text {
+    padding: 75px 0 60px;
+}
+
+.new-life-text h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 800;
+
+}
+
+.new-life-text span {
+    font-family: Gilroy;
+    font-size: 48px;
+    background: #845DF6;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.new-life-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-life-box {
+    width: 42vw;
+    margin: 0px 15px 30px;
+    padding: 25px;
+    background: #ffedff;
+    border-radius: 10px;
+    min-height: 321px;
+    cursor: pointer;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    /*margin: 0 15px 30px;*/
+    /* max-width: 100%; */
+    /*width: 300px;*/
+}
+
+.new-life-box:hover {
+    background: #e2dbf9;
+    transform: translateY(-10px);
+}
+
+.new-life-box-container div img {
+    height: 78px;
+}
+
+.new-life-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.new-life-first-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.new-life-first-span span {
+    text-align: center;
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.new-life-second-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-life-second-span span {
+    font-family: Gilroy, Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .new-life-text h1 {
+        font-size: 30px;
+    }
+
+    .new-life-text span {
+        font-size: 30px;
+        border-radius: 0px;
+    }
+
+    .new-life-box {
+        width: 95vw;
+        min-height: 273px;
+    }
+
+    /*.new-life-box-container {*/
+    /*    flex-wrap: nowrap;*/
+    /*    flex-direction: column;*/
+    /*}*/
+}
+
+@media screen and (min-width: 1023px) {
+    .new-life-box {
+        min-height: 360px;
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1223px) {
+    .new-life-box {
+        min-height: 300px;
+        width: 25vw;
+    }
+}
+
+

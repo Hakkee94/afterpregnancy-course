@@ -1,0 +1,83 @@
+.mental-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background-color: #ffedff;
+    justify-content: center;
+    align-items: center;
+}
+
+.mental-main-text h2 {
+    text-align: center;
+    color: #845DF6;
+    font-size: 32px;
+    font-family: Gilroy;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.mental-main-text h1 {
+    font-family: Gilroy;
+    font-size: 48px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.mental-main-text span {
+    font-family: Gilroy;
+    font-size: 48px;
+    background: #845DF6;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.mental-main-text {
+    padding-bottom: 20px;
+}
+
+.mental-list-container {
+    max-width: 770px;
+    padding: 20px;
+}
+
+.mental-box {
+    border: 1px solid #E3DAFC;
+    border-radius: 15px;
+    padding: 17px 25px;
+    font-weight: 600;
+    font-size: 12px;
+    transition: all 0.3s;
+    line-height: 1;
+    margin: 10px 0 10px;
+}
+
+.mental-box:hover {
+    cursor: pointer;
+    background: #e2dbf9;
+}
+
+.mental-box h2 {
+    font-size: 20px;
+    font-family: Gilroy, Roboto, sans-serif;
+    color: #32313B;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 620px) {
+    .mental-box h2 {
+        font-size: 16px;
+    }
+
+    .mental-main-text h1 {
+        font-size: 33px;
+    }
+
+    .mental-main-text span {
+        font-size: 28px;
+        border-radius: 0px;
+    }
+}
