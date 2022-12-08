@@ -61,7 +61,7 @@
     padding-bottom: 70px;
     display: flex;
     flex-wrap: wrap;
-    /*flex-direction: column;*/
+    flex-direction: column;
     max-height: 500px;
 }
 

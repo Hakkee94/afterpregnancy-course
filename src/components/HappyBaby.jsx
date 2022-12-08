@@ -1,6 +1,5 @@
 import React from 'react';
 import './HappyBabyStyle.css'
-import {Link} from "react-scroll";
 
 const HappyBaby = () => {
     return (
@@ -69,7 +68,7 @@ const HappyBaby = () => {
             </div>
 
             <div className='enroll-btn'>
-                <button> <Link to="formPay" spy={true} smooth={true} offset={50} duration={500}>записаться&nbsp;на&nbsp;курс&nbsp;со&nbsp;скидкой</Link></button>
+                <button>записаться&nbsp;на&nbsp;курс&nbsp;со&nbsp;скидкой</button>
             </div>
         </div>
     );

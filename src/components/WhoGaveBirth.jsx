@@ -1,6 +1,5 @@
 import React from 'react';
 import './WhoGaveBirthStyle.css'
-import {Link} from "react-scroll";
 
 const WhoGaveBirth = () => {
     return (
@@ -61,7 +60,7 @@ const WhoGaveBirth = () => {
 
 
             <div className='take-course'>
-                <button> <Link to="formPay" spy={true} smooth={true} offset={50} duration={500}>забрать курс по спеццене</Link></button>
+                <button>забрать курс по спеццене</button>
             </div>
         </div>
     );

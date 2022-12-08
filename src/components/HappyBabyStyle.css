@@ -39,7 +39,6 @@
 
 .happy-baby-box {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 310px;
@@ -47,14 +46,12 @@
     padding: 20px;
 }
 
-.baby-box-img {
+.baby-box-img img {
     max-height: 78px;
     max-width: 78px;
-
 }
 
 .baby-box-text {
-    padding-top: 15px;
     display: flex;
 }
 
@@ -70,6 +67,7 @@
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .enroll-btn button {
@@ -90,6 +88,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 10px;
+    border: none;
 
 }
 

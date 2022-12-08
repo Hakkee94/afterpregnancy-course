@@ -1,6 +1,5 @@
 import React from 'react';
 import './KatyaRecoveryStyle.css'
-import {Link} from "react-scroll";
 
 const KatyaRecovery = () => {
     return (
@@ -22,7 +21,7 @@ const KatyaRecovery = () => {
             </div>
 
             <div className='take-part'>
-                <button> <Link to="formPay" spy={true} smooth={true} offset={50} duration={500}>записаться</Link></button>
+                <button>записаться</button>
             </div>
         </div>
     );

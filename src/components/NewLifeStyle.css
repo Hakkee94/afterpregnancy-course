@@ -47,6 +47,9 @@
     /*margin: 0 15px 30px;*/
     /* max-width: 100%; */
     /*width: 300px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .new-life-box:hover {

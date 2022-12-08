@@ -45,8 +45,11 @@
     display: flex;
     width: 80%;
     justify-content: space-evenly;
-    margin: 30px;
     padding-bottom: 60px
+}
+
+.presents-for-you-img div img {
+    height: 25vh;
 }
 
 

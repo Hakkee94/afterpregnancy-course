@@ -1,5 +1,7 @@
 import React from 'react';
 import './PresentsForYouStyle.css'
+import tracker from '../tracker.png'
+import guide from '../guide.png'
 
 const PresentsForYou = () => {
     return (
@@ -12,11 +14,11 @@ const PresentsForYou = () => {
 
             <div className='presents-for-you-img'>
                 <div>
-                    <img src='https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/a0b705abf588b035ab6f64dcb27b3eca.png/s/s1200x/a/3187/sc/368'/>
+                    <img src={tracker}/>
                 </div>
 
                 <div>
-                    <img src='https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/74100dc3a1250280ccc376687e8fabb2.png/s/s1200x/a/3187/sc/129'/>
+                    <img src={guide}/>
                 </div>
             </div>
         </div>
