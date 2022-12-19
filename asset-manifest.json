@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/afterpregnancy-course/static/css/main.03d97445.css",
-    "main.js": "/afterpregnancy-course/static/js/main.a57c98b3.js",
+    "main.css": "/afterpregnancy-course/static/css/main.39337383.css",
+    "main.js": "/afterpregnancy-course/static/js/main.a3360d78.js",
     "static/js/787.312a0d4b.chunk.js": "/afterpregnancy-course/static/js/787.312a0d4b.chunk.js",
     "static/media/guide.png": "/afterpregnancy-course/static/media/guide.2063126bc2ca0004d777.png",
     "static/media/tracker.png": "/afterpregnancy-course/static/media/tracker.87e54d857f09aa080395.png",
+    "static/media/footer-logo.png": "/afterpregnancy-course/static/media/footer-logo.02f4c569c8f948d23b16.png",
     "static/media/avacado.png": "/afterpregnancy-course/static/media/avacado.5ce66f598bec1c662fcb.png",
     "static/media/woman-gesturing-brunette.png": "/afterpregnancy-course/static/media/woman-gesturing-brunette.abbbe43aebe05bbc1957.png",
     "static/media/woman-tipping-hand-blonde.png": "/afterpregnancy-course/static/media/woman-tipping-hand-blonde.0e0aa9e78babd0ec70e4.png",
     "static/media/smiling-eyes.png": "/afterpregnancy-course/static/media/smiling-eyes.2cd4ebf9323ebb740cf4.png",
     "static/media/woman-yoga-brunette.png": "/afterpregnancy-course/static/media/woman-yoga-brunette.96c67da9e64a9dfed534.png",
+    "static/media/header-logo.png": "/afterpregnancy-course/static/media/header-logo.e5e608b27062d9d4da7d.png",
     "static/media/woman-fintess.png": "/afterpregnancy-course/static/media/woman-fintess.f7a475babb83e73051bb.png",
     "static/media/yin-yang.png": "/afterpregnancy-course/static/media/yin-yang.b383afdb5eb310849477.png",
     "static/media/logo.svg": "/afterpregnancy-course/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/afterpregnancy-course/index.html",
-    "main.03d97445.css.map": "/afterpregnancy-course/static/css/main.03d97445.css.map",
-    "main.a57c98b3.js.map": "/afterpregnancy-course/static/js/main.a57c98b3.js.map",
+    "main.39337383.css.map": "/afterpregnancy-course/static/css/main.39337383.css.map",
+    "main.a3360d78.js.map": "/afterpregnancy-course/static/js/main.a3360d78.js.map",
     "787.312a0d4b.chunk.js.map": "/afterpregnancy-course/static/js/787.312a0d4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03d97445.css",
-    "static/js/main.a57c98b3.js"
+    "static/css/main.39337383.css",
+    "static/js/main.a3360d78.js"
   ]
 }
