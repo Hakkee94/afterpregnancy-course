@@ -10,19 +10,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 75px;
+    padding: 75px 0 75px;
 }
 
 .presents-for-you-text h1 {
     font-size: 48px;
     font-family: Gilroy;
     color: #32313B;
-    line-height: 1.2;
+    line-height: 1.5;
     font-weight: 800;
     text-align: center;
+    margin: 0;
 }
 
 .presents-for-you-text span {
+    font-family: Gilroy;
     background: #845DF6;
     border-radius: 15px;
     color: #ffffff;
@@ -35,10 +37,11 @@
     font-size: 26px;
     font-family: Gilroy;
     color: #32313B;
-    line-height: 1.2;
     font-weight: 800;
     text-align: center;
     padding-top: 5px;
+    margin: 0;
+    line-height: 2;
 }
 
 .presents-for-you-img {

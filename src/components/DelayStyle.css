@@ -14,6 +14,7 @@
     color: #32313B;
     line-height: 1.2;
     font-weight: 800;
+    text-align: center;
 }
 
 .contraindications-text h1 {
@@ -23,6 +24,7 @@
     font-weight: 800;
     margin: 0 auto;
     line-height: 1;
+    text-align: center;
 }
 
 .contraindications-text {
@@ -49,18 +51,11 @@
 
 .contraindications-list {
     display: flex;
-    /*max-width: 1200px;*/
     justify-content: space-between;
     padding: 30px;
     flex-wrap: wrap;
     padding-bottom: 70px;
 }
-
-.contraindications-list ul:last-child {
-    padding-right: 150px;
-
-}
-
 
 .care-yourself-text {
     display: flex;
@@ -74,6 +69,8 @@
     color: #ffffff;
     font-size: 48px;
     font-weight: 800;
+    padding: 0;
+    margin: 0;
 }
 
 .care-yourself-text h2 {
@@ -81,13 +78,15 @@
     color: #32313B;
     font-family: Gilroy;
     font-weight: 800;
-    margin-bottom: 50px;
-
+    padding: 0;
+    margin: 0;
 }
 
 .without-guilt-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
 }
 
 .without-guilt-box {
@@ -99,7 +98,7 @@
     margin-bottom: 25px;
     justify-content: space-between;
     overflow: hidden;
-    max-height: 230px;
+    height: 60px;
     position: relative;
     transition-property: all;
     transition-duration: 1s;
@@ -121,8 +120,7 @@
 .guilt-number {
     width: 140px;
     position: absolute;
-    right: -55px;
-    bottom: -77px;
+    right: -110px;
     padding: 30px 25px;
     margin: 0 0 20px;
     text-align: left;
@@ -214,10 +212,9 @@
 }
 
 .safety-box-container {
-    /*max-width: 1200px;*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .safety-box {
@@ -249,6 +246,7 @@
 
 .safety-box-list ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .safety-box-list ul li {
@@ -301,7 +299,7 @@
 
     .without-guilt-container {
         display: flex;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
         justify-content: center;
     }
 
@@ -345,10 +343,9 @@
     }
 
     .guilt-number {
-        width: 140px;
-        height: 140px;
+        width: 126px;
+        height: 99px;
         position: absolute;
-        right: -67px;
         bottom: -88px;
         padding: 30px 25px;
         margin: 0 0 20px;
@@ -364,10 +361,14 @@
     }
 
     .without-guilt-box {
-        flex-basis: 98vw;
+        flex-basis: 70vw;
         max-height: 290px;
         padding-bottom: 50px;
         margin-bottom: 10px;
     }
+}
+
+@media screen and (max-width: 1116px) {
+
 }
 

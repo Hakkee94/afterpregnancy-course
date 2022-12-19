@@ -118,6 +118,17 @@
 
 .take-course {
     padding-bottom: 70px;
+    position: relative;
+    transition: all 1s;
+}
+
+.take-course button {
+    cursor: pointer;
+}
+
+.take-course button:hover {
+    transition: all 1s;
+    transform: translateY(-5px);
 }
 
 @media screen and (max-width: 1000px) {

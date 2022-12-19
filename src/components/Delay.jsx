@@ -51,9 +51,6 @@ const Delay = () => {
                         <span>02</span>
                     </div>
                 </div>
-            </div>
-
-            <div className='without-guilt-container'>
 
                 <div className='without-guilt-box'>
                     <div className='guilt-text'>
@@ -75,6 +72,11 @@ const Delay = () => {
                     </div>
                 </div>
             </div>
+
+            {/*<div className='without-guilt-container'>*/}
+
+
+            {/*</div>*/}
 
             <div className='home-training-container'>
                 <div className='home-training-img'>

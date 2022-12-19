@@ -52,6 +52,10 @@
     border-right: 8px solid #845DF6;
 }
 
+.recovery-box h2 {
+    font-family: Gilroy;
+    font-weight: 400;
+}
 
 
 .recovery-video-container {
@@ -70,6 +74,17 @@
     /*height: 100%;*/
 }
 
+.take-part {
+    position: relative;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.take-part button:hover {
+    background-color: #f8d7e9;
+    transform: translateY(-5px);
+}
+
 .take-part button {
     font-family: 'Gilroy';
     font-weight: 500;
@@ -81,7 +96,6 @@
     line-height: 1.3;
     padding: 35px 60px 37px;
     min-height: auto;
-    transition: all 0.3s;
     z-index: 999;
     outline: none;
     min-height: 73px;
@@ -91,6 +105,9 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 80px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .take-part-btn button {
